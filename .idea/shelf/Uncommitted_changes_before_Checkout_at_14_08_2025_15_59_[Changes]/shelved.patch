@@ -1,0 +1,175 @@
+Index: venv/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.venv/\r\n__pycache__/\r\n*.pyc\r\n
+===================================================================
+diff --git a/venv/.gitignore b/venv/.gitignore
+--- a/venv/.gitignore	(revision 927bbb21a39c4136723be5481599d1861dee53d8)
++++ b/venv/.gitignore	(date 1752664165673)
+@@ -1,3 +1,7 @@
+ .venv/
+ __pycache__/
+ *.pyc
++venv/
++*.py[cod]
++**/__pycache__/
++
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/Sprint_2\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/Sprint_4\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/Sprint_5\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 927bbb21a39c4136723be5481599d1861dee53d8)
++++ b/.idea/vcs.xml	(date 1753782663319)
+@@ -5,5 +5,6 @@
+     <mapping directory="$PROJECT_DIR$/Sprint_2" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/Sprint_4" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/Sprint_5" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/Sprint_6" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9eae057c-451e-4eb8-973e-e5ae8ae2f9b9\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$/Sprint_4\" source=\"develop\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/Sprint_4\" value=\"main\" />\r\n        <entry key=\"$PROJECT_DIR$/Sprint_5\" value=\"develop\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/Sprint_5\" />\r\n    <option name=\"ROOT_SYNC\" value=\"DONT_SYNC\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Alexasanr063&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Alexasanr063/Sprint_2.git&quot;,\r\n    &quot;accountId&quot;: &quot;d0effc5b-63f7-4ba8-a2c2-009ff1de6821&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2x5WLOGPs2nTG4LFqaXkboJnZM0\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python tests.Python tests in precode_1.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in precode_2.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in precode_3.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in task1.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test_example.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in tests.py.executor\": \"Run\",\r\n    \"Python tests.pytest in test_creating_a_new_ad.py.executor\": \"Run\",\r\n    \"Python tests.pytest in test_example.py.executor\": \"Run\",\r\n    \"Python tests.pytest in test_login.py.executor\": \"Run\",\r\n    \"Python tests.pytest in test_registration.py.executor\": \"Run\",\r\n    \"Python tests.pytest in test_user_registration.py.executor\": \"Run\",\r\n    \"Python tests.pytest in tests.py.executor\": \"Run\",\r\n    \"Python.file1.executor\": \"Run\",\r\n    \"Python.task.executor\": \"Run\",\r\n    \"Python.task1.executor\": \"Run\",\r\n    \"Python.task2.executor\": \"Run\",\r\n    \"Python.task3.executor\": \"Run\",\r\n    \"Python.task4.executor\": \"Run\",\r\n    \"Python.task5.executor\": \"Run\",\r\n    \"Python.test.executor\": \"Run\",\r\n    \"Python.user_registration.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"develop\",\r\n    \"last_opened_file_path\": \"C:/vs_code/Sprint_3\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\vs_code\\Sprint_3\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\vs_code\\Sprint_4\\с гита\" />\r\n      <recent name=\"C:\\vs_code\" />\r\n      <recent name=\"C:\\vs_code\\Sprint_2\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9eae057c-451e-4eb8-973e-e5ae8ae2f9b9\" name=\"Changes\" comment=\"\" />\r\n      <created>1747228358198</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1747228358198</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 927bbb21a39c4136723be5481599d1861dee53d8)
++++ b/.idea/workspace.xml	(date 1755170270217)
+@@ -4,7 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9eae057c-451e-4eb8-973e-e5ae8ae2f9b9" name="Changes" comment="" />
++    <list default="true" id="9eae057c-451e-4eb8-973e-e5ae8ae2f9b9" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/Sprint_6" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vs_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vs_code.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Sprint_5" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint_5" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -34,10 +41,11 @@
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+         <entry key="$PROJECT_DIR$/Sprint_4" value="main" />
+-        <entry key="$PROJECT_DIR$/Sprint_5" value="develop" />
++        <entry key="$PROJECT_DIR$/Sprint_5" value="main" />
++        <entry key="$PROJECT_DIR$/Sprint_6" value="develop" />
+       </map>
+     </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Sprint_5" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -73,13 +81,59 @@
+     "Python tests.Python tests in test.py.executor": "Run",
+     "Python tests.Python tests in test_example.py.executor": "Run",
+     "Python tests.Python tests in tests.py.executor": "Run",
++    "Python tests.pytest in An unsuccessful request returns the appropriate error.py.executor": "Run",
++    "Python tests.pytest in Invalid order id.py.executor": "Run",
++    "Python tests.pytest in List of orders.py.executor": "Run",
++    "Python tests.pytest in You don't have to specify the color at all.py.executor": "Run",
++    "Python tests.pytest in a successful request returns id.py.executor": "Run",
++    "Python tests.pytest in all required fields.py.executor": "Run",
++    "Python tests.pytest in all_required_fields.py.executor": "Run",
++    "Python tests.pytest in do not pass order id.py.executor": "Run",
++    "Python tests.pytest in invalid id.py.executor": "Run",
++    "Python tests.pytest in lesson.py.executor": "Run",
++    "Python tests.pytest in non-existent user.py.executor": "Run",
++    "Python tests.pytest in not id.py.executor": "Run",
++    "Python tests.pytest in order_page.py.executor": "Run",
++    "Python tests.pytest in request with non-existent order.py.executor": "Run",
++    "Python tests.pytest in request without id.py.executor": "Run",
++    "Python tests.pytest in request without order number returns error.py.executor": "Run",
++    "Python tests.pytest in successful request.py.executor": "Run",
++    "Python tests.pytest in test.py.executor": "Run",
++    "Python tests.pytest in test_a_successful_request_returns_valid_data.py.executor": "Run",
++    "Python tests.pytest in test_all required fields.py.executor": "Run",
++    "Python tests.pytest in test_all_required_fields.py.executor": "Run",
++    "Python tests.pytest in test_correct_response_code.py.executor": "Run",
++    "Python tests.pytest in test_courier_can_be_created.py.executor": "Run",
+     "Python tests.pytest in test_creating_a_new_ad.py.executor": "Run",
+     "Python tests.pytest in test_example.py.executor": "Run",
++    "Python tests.pytest in test_faq.py.executor": "Run",
+     "Python tests.pytest in test_login.py.executor": "Run",
++    "Python tests.pytest in test_order_page.py.executor": "Run",
+     "Python tests.pytest in test_registration.py.executor": "Run",
++    "Python tests.pytest in test_the_courier_can_log_in.py.executor": "Run",
+     "Python tests.pytest in test_user_registration.py.executor": "Run",
++    "Python tests.pytest in test_you_cannot_create_two_identical_couriers.py.executor": "Run",
+     "Python tests.pytest in tests.py.executor": "Run",
++    "Python tests.pytest in the request returns an error.py.executor": "Run",
++    "Python tests.pytest in you can specify both colors.py.executor": "Run",
++    "Python tests.pytest in you can specify one of the colors - BLACK or GREY.py.executor": "Run",
++    "Python.An unsuccessful request returns the appropriate error.executor": "Run",
++    "Python.List of orders.executor": "Run",
++    "Python.a successful request returns id.executor": "Run",
++    "Python.a_successful_request_returns_valid_data.executor": "Run",
++    "Python.all_required_fields.executor": "Run",
++    "Python.can_be_created.executor": "Run",
++    "Python.conftest.executor": "Run",
++    "Python.correct_response_code.executor": "Run",
++    "Python.courier_can_be_created.executor": "Run",
++    "Python.creating_a_new_courier.executor": "Run",
+     "Python.file1.executor": "Run",
++    "Python.lesson.executor": "Run",
++    "Python.locators.executor": "Run",
++    "Python.non-existent user.executor": "Run",
++    "Python.not id.executor": "Run",
++    "Python.order_page.executor": "Run",
++    "Python.pages.executor": "Run",
+     "Python.task.executor": "Run",
+     "Python.task1.executor": "Run",
+     "Python.task2.executor": "Run",
+@@ -87,18 +141,24 @@
+     "Python.task4.executor": "Run",
+     "Python.task5.executor": "Run",
+     "Python.test.executor": "Run",
++    "Python.the_courier_can_log_in.executor": "Run",
+     "Python.user_registration.executor": "Run",
++    "Python.you can specify one of the colors - BLACK or GREY.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "develop",
+-    "last_opened_file_path": "C:/vs_code/Sprint_3"
++    "git-widget-placeholder": "main",
++    "last_opened_file_path": "C:/vs_code/Sprint_6/pages"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\vs_code\Sprint_6\pages" />
++      <recent name="C:\vs_code\Sprint_6" />
+       <recent name="C:\vs_code\Sprint_3" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\vs_code\Sprint_5\pages" />
++      <recent name="C:\vs_code\Sprint_5" />
+       <recent name="C:\vs_code\Sprint_4\с гита" />
+       <recent name="C:\vs_code" />
+       <recent name="C:\vs_code\Sprint_2" />
+Index: .idea/vs_code.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module version=\"4\">\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n  <component name=\"TestRunnerService\">\r\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"py.test\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/vs_code.iml b/.idea/vs_code.iml
+--- a/.idea/vs_code.iml	(revision 927bbb21a39c4136723be5481599d1861dee53d8)
++++ b/.idea/vs_code.iml	(date 1752652984781)
+@@ -1,9 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module version="4">
+-  <component name="PyDocumentationSettings">
+-    <option name="format" value="PLAIN" />
+-    <option name="myDocStringFormat" value="Plain" />
+-  </component>
+   <component name="TestRunnerService">
+     <option name="PROJECT_TEST_RUNNER" value="py.test" />
+   </component>
